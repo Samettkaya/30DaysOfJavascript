@@ -195,3 +195,7 @@ const days=[
 let mont=months[month]
 
 console.log(`${day}.${mont}.${year} ${days[date.getDay()]} ${hours}:${minutes}:${seconds}`)
+
+
+var ayKacCekti = new Date(2022, 02, 0).getDate();
+alert(ayKacCekti);
